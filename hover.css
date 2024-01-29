@@ -1,0 +1,56 @@
+.box{
+    margin: 100px;
+    height: 2000px;
+    background-image: url("./images/The_Great_Gatsby_Cover_1925_Retouched\ \(1\).jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.child{
+    margin: 5px;
+    height: 300px;
+    width: 300px;
+    background-color:black;
+    opacity: 0;
+}
+.child :hover{
+    opacity: 1;
+    background-color: burlywood;
+}
+
+
+p:hover{
+    color: aquamarine;
+}
+h1:hover{
+    color: blue;
+}
+button{
+    background-color:purple; 
+    border: purple solid 2px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+   border-radius: 20px;
+    font-size: 16px;
+}
+button:hover{
+    color: black;
+    background-color:rgb(240, 175, 240) ;
+}
+/* #btn{
+    background-color:black; 
+    border:blue 30px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+   border-radius: 20px;
+    font-size: 16px;
+
+}
+#btn:hover{
+    color: black;
+    background-color:rgb(102, 129, 217) ;
+} */
